@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}User index{% endblock %}
+
+{% block body %}
+    <h1>User</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Users</th>
+                {% if is_granted('ROLE_ADMIN') %}
+                    <th>Actions</th>
+                {% endif %}
+            </tr>
+        </thead>
+        <tbody>
+        {% for user in users %}
+            <tr>
+                <td>{{ user.email }}</td>
+
+                {% if is_granted('ROLE_ADMIN') %}
+                    <td>
+                        <a href="{{ path('user_show', {'id': user.id}) }}">show</a>
+                        <a href="{{ path('user_edit', {'id': user.id}) }}">edit</a>
+                    </td>
+                {% endif %}
+
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% if is_granted('ROLE_ADMIN') %}
+        <a href="{{ path('user_new') }}">Create new</a>
+    {% endif %}
+{% endblock %}

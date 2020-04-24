@@ -1,49 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a835d95-166a-420c-800e-d6a7845f289e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/B00106979_WFD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/B00106979_WFD.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Andrew.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Andrew.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/background.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/background.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/flash.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/flash.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/imageOne.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/imageOne.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/GroupController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/GroupController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HeadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HeadController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/StudentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/GroupFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/GroupFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/LoadStudents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/LoadStudents.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Group.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Group.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/StudentType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/StudentType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/error/404.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/error/404.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/group/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/group/edit.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/group/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/group/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/group/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/group/new.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/group/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/group/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/head/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/head/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/edit.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/list.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/new.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/show.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="6a835d95-166a-420c-800e-d6a7845f289e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -234,7 +192,7 @@
       <workItem from="1587553053593" duration="25851000" />
       <workItem from="1587589324952" duration="3537000" />
       <workItem from="1587689143034" duration="10635000" />
-      <workItem from="1587706540861" duration="1120000" />
+      <workItem from="1587706540861" duration="1389000" />
     </task>
     <servers />
   </component>
