@@ -1,19 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a835d95-166a-420c-800e-d6a7845f289e" name="Default Changelist" comment="" />
+    <list default="true" id="6a835d95-166a-420c-800e-d6a7845f289e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/B00106979_WFD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/B00106979_WFD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Andrew.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Andrew.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/background.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/background.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/flash.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/flash.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/imageOne.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/imageOne.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/GroupController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/GroupController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/HeadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HeadController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/StudentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/GroupFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/GroupFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/LoadStudents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/LoadStudents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Group.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Group.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/StudentType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/StudentType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/error/404.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/error/404.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/group/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/group/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/group/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/group/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/group/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/group/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/group/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/group/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/head/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/head/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/list.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/show.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
@@ -121,18 +166,39 @@
       <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
       <path value="$PROJECT_DIR$/vendor/symfony/form" />
       <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
     </include_path>
   </component>
   <component name="ProjectId" id="1aUoGz2zd7fpEJLQbMH0mNRyhoi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrew\Desktop\B00106979_WFD\templates\error" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrew\Desktop\B00106979_WFD\templates\student" />
+      <recent name="C:\Users\Andrew\Desktop\B00106979_WFD\src\Security" />
+      <recent name="C:\Users\Andrew\Desktop\B00106979_WFD\templates" />
+      <recent name="C:\Users\Andrew\Desktop\B00106979_WFD\src\Controller" />
+      <recent name="C:\Users\Andrew\Desktop\B00106979_WFD\src\DataFixtures" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -145,6 +211,7 @@
         </serviceView>
       </list>
     </option>
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -156,22 +223,113 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586799441968</updated>
-      <workItem from="1586799443171" duration="3918000" />
+      <workItem from="1586799443171" duration="14383000" />
+      <workItem from="1587085006992" duration="15772000" />
+      <workItem from="1587225118968" duration="2108000" />
+      <workItem from="1587254192808" duration="13041000" />
+      <workItem from="1587328817576" duration="998000" />
+      <workItem from="1587344316596" duration="12234000" />
+      <workItem from="1587435123898" duration="592000" />
+      <workItem from="1587481876539" duration="200000" />
+      <workItem from="1587553053593" duration="25851000" />
+      <workItem from="1587589324952" duration="3537000" />
+      <workItem from="1587689143034" duration="10635000" />
+      <workItem from="1587706540861" duration="1120000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Composer" timestamp="1586799544449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Composer/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1586799544449" />
+    <state x="1034" y="184" key="#Inspections" timestamp="1587353173355">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1034" y="184" key="#Inspections/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1587353173355" />
+    <state x="1151" y="116" key="#PHP" timestamp="1587264139400">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1151" y="116" key="#PHP/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1587264139400" />
     <state x="1047" y="178" key="#Plugins" timestamp="1586803477724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1047" y="178" key="#Plugins/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1586803477724" />
+    <state x="1116" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587353875636">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1116" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1587353875636" />
+    <state x="666" y="275" key="#com.intellij.ide.util.MemberChooser" timestamp="1587566408324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="275" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1587566408324" />
+    <state x="1198" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587099515717">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1198" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1587099515717" />
+    <state x="1189" y="372" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587353257498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1189" y="372" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1587353257498" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1587696198842">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1587696198842" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1587702027947">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1587702027947" />
+    <state x="1024" y="260" key="IDE.errors.dialog" timestamp="1587089371983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1024" y="260" key="IDE.errors.dialog/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1587089371983" />
+    <state x="1222" y="334" key="NewPhpClassDialog" timestamp="1586832730790">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1222" y="334" key="NewPhpClassDialog/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1586832730790" />
+    <state x="1223" y="456" key="NewPhpFileDialog" timestamp="1587695940901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1223" y="456" key="NewPhpFileDialog/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1587695940901" />
+    <state x="136" y="167" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1587697451534">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="136" y="167" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1587697451534" />
+    <state x="1166" y="113" width="635" height="840" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587697451534">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1166" y="113" width="635" height="840" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1587697451534" />
+    <state x="1212" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587566612637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1212" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1587566612637" />
+    <state x="1048" y="53" width="722" height="846" key="dock-window-1" timestamp="1587702346095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1048" y="53" width="722" height="846" key="dock-window-1/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1587702346095" />
+    <state x="2260" y="40" width="744" height="846" key="dock-window-2" timestamp="1587704513010">
+      <screen x="1920" y="40" width="1680" height="1010" />
+    </state>
+    <state x="2260" y="40" width="744" height="846" key="dock-window-2/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1587704513010" />
+    <state x="1140" y="263" width="607" height="526" key="find.popup" timestamp="1587094538935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1140" y="263" width="607" height="526" key="find.popup/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1587094538935" />
+    <state x="1196" y="153" key="refactoring.ChangeSignatureDialog" timestamp="1587264843743">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1196" y="153" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1587264843743" />
+    <state x="2967" y="189" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.40.1680.1010@1920.40.1680.1010" timestamp="1586835882862" />
+    <state x="1041" y="246" key="run.anything.popup" timestamp="1587574947165">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1041" y="246" key="run.anything.popup/0.0.1920.1040/1920.40.1680.1010@0.0.1920.1040" timestamp="1587574947165" />
     <state x="1118" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1586802323445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

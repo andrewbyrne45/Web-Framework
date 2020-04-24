@@ -1,36 +1,28 @@
 <?php
 
 namespace App\DataFixtures;
-
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\Persistence\ObjectManager;
-use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
-use App\Entity\User;
+use App\Entity\Group;
 
-class UserFixtures extends Fixture
+class GroupFixtures extends Fixture
 {
-    private $passwordEncoder;
-
-    public function __construct(UserPasswordEncoderInterface $passwordEncoder)
-    {
-        $this->passwordEncoder = $passwordEncoder;
-    }
     public function load(ObjectManager $manager)
     {
-        // (1) create object
-        $user = new User();
-        $user->setEmail('andrew@byrne.com');
-        $user->setRoles(['ROLE_ADMIN', 'ROLE_TEACHER']);
+        $cat1 = new Group();
+        $cat1->setName('Computer Science - Year 3');
 
-        $plainPassword = 'admin';
-        $encodedPassword = $this->passwordEncoder->encodePassword($user, $plainPassword);
+        $cat2 = new Group();
+        $cat2->setName('Business - Year 1');
 
-        $user->setPassword($encodedPassword);
-        //(2) queue up object to be inserted into DB
+        $cat3 = new Group();
+        $cat3->setName('Digital Media - Year 4');
 
-        $manager->persist($user);
+        $manager->persist($cat1);
+        $manager->persist($cat2);
+        $manager->persist($cat3);
 
-        // (3) insert objects into database
+
         $manager->flush();
     }
 }

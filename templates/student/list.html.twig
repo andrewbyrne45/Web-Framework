@@ -1,17 +1,25 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>Student LIST page</h1>
+
+    <h1>Student list</h1>
 
     <ul>
         {% for student in students %}
             <li>
-                id = {{ student.id }}
-                <br>
-                name = {{ student.firstName }} {{ student.surname }}
+                Name: {{ student.firstName }} {{ student.surname }}
                 <br>
                 <a href="{{ url('student_show', {id : student.id} ) }}">(details)</a>
+
+                {% if is_granted('ROLE_USER') %}
+                    <a href="{{ path('student_edit', {'id': student.id}) }}">edit</a>
+                {% endif %}
+
             </li>
+            <br>
         {% endfor %}
     </ul>
+    {% if is_granted('ROLE_USER') %}
+        <a href="{{ path('student_new')}}">Create new student</a>
+    {% endif %}
 {% endblock %}

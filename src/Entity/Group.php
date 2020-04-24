@@ -2,6 +2,7 @@
 
 namespace App\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -37,5 +38,14 @@ class Group
         $this->name = $name;
 
         return $this;
+    }
+
+    /**
+     * @ORM\OneToMany(targetEntity="App\Entity\Student", mappedBy="group")
+     */
+    private $students;
+    public function __construct()
+    {
+        $this->students = new ArrayCollection();
     }
 }

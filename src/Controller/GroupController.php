@@ -53,8 +53,11 @@ class GroupController extends AbstractController
      */
     public function show(Group $group): Response
     {
+        $entityManager = $this->getDoctrine()->getManager();
+        $students = $entityManager->getRepository('App\Entity\Student')->findAll();
         return $this->render('group/show.html.twig', [
             'group' => $group,
+            'students' => $students
         ]);
     }
 

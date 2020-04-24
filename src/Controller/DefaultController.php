@@ -9,12 +9,12 @@ use Symfony\Component\HttpFoundation\Response;
 class DefaultController extends AbstractController
 {
     /**
-     * @Route("/default", name="default")
+     * @Route("/", name="homepage")
      */
-    public function index()
+    public function indexAction()
     {
-        return $this->render('default/index.html.twig', [
-            'controller_name' => 'DefaultController',
-        ]);
+        $template = 'default/index.html.twig';
+        $args = [];
+        return $this->render($template, $args);
     }
 }

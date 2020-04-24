@@ -1,35 +1,35 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Group index{% endblock %}
+{% block title %}Class Index{% endblock %}
 
 {% block body %}
-    <h1>Group index</h1>
-
+    <h1>Class List</h1>
+    Select a class to display it's current students.
+    <br>
     <table class="table">
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Name</th>
-                <th>actions</th>
-            </tr>
-        </thead>
         <tbody>
         {% for group in groups %}
             <tr>
-                <td>{{ group.id }}</td>
                 <td>{{ group.name }}</td>
                 <td>
-                    <a href="{{ path('group_show', {'id': group.id}) }}">show</a>
-                    <a href="{{ path('group_edit', {'id': group.id}) }}">edit</a>
+                    <a href="{{ path('group_show', {'id': group.id}) }}">Show</a>
+                    {% if is_granted('ROLE_ADMIN') %}
+                        <a href="{{ path('group_edit', {'id': group.id}) }}">Edit</a>
+                    {% endif %}
                 </td>
             </tr>
         {% else %}
             <tr>
-                <td colspan="3">no records found</td>
+                <td colspan="3">There are currently no groups available to show.</td>
             </tr>
         {% endfor %}
         </tbody>
     </table>
+        <br>
 
-    <a href="{{ path('group_new') }}">Create new</a>
+        {% if is_granted('ROLE_ADMIN') %}
+            <a href="{{ path('group_new') }}">Click here</a>
+            to create a new class.<br>
+        {% endif %}
+
 {% endblock %}
